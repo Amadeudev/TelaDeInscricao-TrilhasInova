@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="conteudo">
+        <section id="inscricaoUsuario">
+            <div id="inserirDados">
+                <h1 class="itemCentro">Inscreva-se</h1> 
+                <input type="text" placeholder="Nome completo" class="dados">
+                <input type="text" placeholder="Data de nascimento" onfocus="this.type='date'" onblur="if (!this.value) this.type='text'" class="dados">
+                <input type="text" placeholder="Email" class="dados">
+                <input type="text" placeholder="Telefone" class="dados">
+                <input type="text" placeholder="CPF" class="dados">
+                <input type="text" placeholder="Endereço" class="dados">
+                <input type="text" placeholder="Cidade" class="dados">
+
+                <div class="tudoImagens">
+                    <div id="colocarImagens">
+                        <div id="identidade">
+                            <div class="textosParaArquivo">
+                                <span class="textoArquivo">Selecione seu documento de identidade</span>
+                                <span class="textoArquivoMenor">JPG, PNG ou PDF</span>
+                            </div>
+                            <input type="file" id="arquivo">
+                            <label for='arquivo'>Selecionar</label>
+                        </div>
+                        <div id="comprovante">
+                            <div class="textosParaArquivo">
+                                <span class="textoArquivo">Selecione seu comprovante de residência</span>
+                                <span class="textoArquivoMenor">JPG, PNG ou PDF</span>
+                            </div>
+                            <input type="file" id="arquivo">
+                            <label for='arquivo'>Selecionar</label>
+                        </div>
+                    </div>
+                    <span id="aviso">*Atenção: Todos os dados acima são obrigatórios!</span>
+                </div>
+
+                <div>
+                    <a><button class="botaoUm">Cancelar</button></a>
+                    <a><button class="botaoDois">Enviar</button></a>
+                </div>
+            </div>
+            <img src="/assets/Logo.png" id="imagemLogo">
+        </section>
+    </main>
+
+</body>
+</html>
