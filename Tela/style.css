@@ -37,7 +37,7 @@ body {
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    width: 490px;
+    width: 540px;
     height: 660px;
     border-radius: 20px;
 }
@@ -49,7 +49,7 @@ body {
 }
 
 .tudoImagens {
-    margin: 5%;
+    margin: 3%;
     text-align: center;
     align-items: center;
     justify-content: space-between;
@@ -59,20 +59,24 @@ body {
     display: flex;
     flex-direction: row;
     border: solid 1px #CACACA;
-    padding: 20px 40px 20px 40px;
-
+    padding: 20px;
+    gap: 5px;
+    align-items: center;
 }
 
 #comprovante {
     display: flex;
     flex-direction: row;
     border: solid 1px #CACACA;
-    padding: 20px 40px 20px 40px;
+    padding: 20px;
+    gap: 5px;
+    align-items: center;
 }
 
 #colocarImagens {
     display: flex;
     justify-content: space-between;
+    gap: 1rem;
 }
 
 #arquivo {
@@ -80,6 +84,7 @@ body {
 }
 
 label {
+    padding: 5px;
     font-size: 12px;
     border: solid 1px #097E90;
     border-radius: 5px;
@@ -87,9 +92,16 @@ label {
     cursor: pointer;
 }
 
+i {
+    color: #9BCB15;
+    font-size: 30px;
+}
+
 .textosParaArquivo {
     display: flex;
     flex-direction: column;
+    text-align: start;
+    margin-left: 10px;
 }
 
 .textoArquivo {
