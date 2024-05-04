@@ -166,3 +166,14 @@ i {
     background-color: #FFFFFF;
     color:#FF9F76;
 }
+
+@media only screen and (max-width: 700px) {
+    #imagemLogo {
+        display: none;
+    }
+
+    #conteudo {
+        display: flex;
+        justify-content: center;
+    }
+}
